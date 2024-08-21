@@ -20,12 +20,12 @@
   </head>
   <body>
     <!-- header starts from here -->
-    <header class="container mx-auto">
+    <header class="container px-4 md:px-0 mx-auto">
       <!-- navbar -->
-      <nav>
+      <nav class="mt-5">
         <div class="navbar p-0 bg-base-100">
           <div class="navbar-start">
-            <div class="dropdown">
+            <!-- <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
                 <li class="hover:font-bold"><a>Blogs</a></li>
                 <li class="hover:font-bold"><a>Contact Us</a></li>
               </ul>
-            </div>
+            </div> -->
             <div class="flex gap-2 items-center">
               <i
                 class="fa-solid text-center -rotate-45 bg-[#ABEF5F] h-8 w-8 rounded-full text-lg fa-arrow-right"
@@ -70,9 +70,9 @@
             </ul>
           </div>
           <div class="navbar-end flex gap-4">
-            <i class="fa-solid text-center border h-8 w-8 rounded-full text-lg fa-magnifying-glass"></i>
-            <i class="fa-solid text-center border h-8 w-8 rounded-full text-lg fa-cart-shopping"></i>
-            <a class="btn bg-[#ABEF5F]"
+            <i class="fa-solid text-center border h-8 w-8 rounded-full hidden md:block text-lg fa-magnifying-glass"></i>
+            <i class="fa-solid text-center border h-8 w-8 rounded-full hidden md:block text-lg fa-cart-shopping"></i>
+            <a class="btn border-none rounded-full  bg-[#ABEF5F]"
               >Book Consult
               <i
                 class="fa-solid text-center -rotate-45 bg-black text-white h-7 w-7 rounded-full text-lg fa-arrow-right"
@@ -81,9 +81,18 @@
           </div>
         </div>
       </nav>
+      <!-- hero section -->
+       <section class="mt-10 text-center space-y-7">
+        <img class="mx-auto" src="assets/banner.png" alt="banner">
+        <h2 class="text-4xl font-bold">A barn house of this design has a <br>striking appearance</h2>
+        <p>The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents, and large <br> windows that flood the space with natural light.</p>
+        <button class="btn w-full lg:w-1/6 rounded-full border-none bg-[#c4f888d3]"> View Details <i
+            class="fa-solid text-center -rotate-45 bg-[#a4ea53b7] rounded-full w-4 h-4 fa-arrow-right"
+          ></i></button>
+       </section>
     </header>
     <!-- main starts from here -->
-    <main class="container mx-auto"></main>
+    <main class="container px-4 md:px-0 mx-auto"></main>
     <!-- footer starts from here -->
     <footer class="container mx-auto"></footer>
   </body>
