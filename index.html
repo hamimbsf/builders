@@ -38,23 +38,10 @@
       <nav class="mt-5">
         <div class="navbar p-0 bg-base-100">
           <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="pr-1">
-                <i
-                class="fa-solid text-center -rotate-45 bg-[#ABEF5F] h-7 w-7 rounded-full text-lg fa-arrow-right"
-              ></i>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 lg:hidden rounded-box z-[1] mt-3 w-52 p-2 shadow"
-              >
-                <li class="hover:font-bold"><a>Home</a></li>
-                <li class="hover:font-bold"><a>Services</a></li>
-                <li class="hover:font-bold"><a>Portfolio</a></li>
-                <li class="hover:font-bold"><a>Blogs</a></li>
-                <li class="hover:font-bold"><a>Contact Us</a></li>
-              </ul>
-            </div>
+            <i
+              class="fa-solid text-center -rotate-45 bg-[#ABEF5F] h-7 w-7 rounded-full mr-1 text-lg fa-arrow-right"
+            ></i>
+
             <div class="flex items-center">
               <a class="font-bold text-3xl">Rinterio</a>
             </div>
@@ -75,12 +62,46 @@
             <i
               class="fa-solid text-center border h-8 w-8 rounded-full hidden md:block text-lg fa-cart-shopping"
             ></i>
-            <a class="btn border-none rounded-full bg-[#ABEF5F]"
-              >Book Consult
+            <button
+              class="btn bg-[#ABEF5F] border-none hidden lg:block rounded-full"
+            >
+              Book Consult
               <i
                 class="fa-solid text-center -rotate-45 bg-black text-white h-7 w-7 rounded-full text-lg fa-arrow-right"
-              ></i
-            ></a>
+              ></i>
+            </button>
+
+            <div class="dropdown dropdown-end">
+              <div tabindex="0" role="button" class="pr-1">
+                <button
+                  class="border h-8 w-8 rounded-full md:hidden text-lg btn-ghost"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-5 w-5 stroke-current"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 lg:hidden rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li class="hover:font-bold"><a>Home</a></li>
+                <li class="hover:font-bold"><a>Services</a></li>
+                <li class="hover:font-bold"><a>Portfolio</a></li>
+                <li class="hover:font-bold"><a>Blogs</a></li>
+                <li class="hover:font-bold"><a>Contact Us</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -333,9 +354,10 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">New York, NY </h2>
+              <h2 class="card-title">New York, NY</h2>
               <p>
-                It’s one of the best cities in the world, so of course it’s the number one most searched city.
+                It’s one of the best cities in the world, so of course it’s the
+                number one most searched city.
               </p>
               <div class="card-actions justify-end">
                 <button class="btn bg-[#ABEF5F] border-none">Book Now</button>
@@ -351,9 +373,10 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Los Angeles, CA </h2>
+              <h2 class="card-title">Los Angeles, CA</h2>
               <p>
-                Beaches, sunshine, and movie stars? It isn’t difficult to figure out why Los Angeles is the second-most searched city.
+                Beaches, sunshine, and movie stars? It isn’t difficult to figure
+                out why Los Angeles is the second-most searched city.
               </p>
               <div class="card-actions justify-end">
                 <button class="btn bg-[#ABEF5F] border-none">Book Now</button>
@@ -369,9 +392,10 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Chicago, IL </h2>
+              <h2 class="card-title">Chicago, IL</h2>
               <p>
-                The third most-searched city.com was Chicago, which is also the third largest city in the country.
+                The third most-searched city.com was Chicago, which is also the
+                third largest city in the country.
               </p>
               <div class="card-actions justify-end">
                 <button class="btn bg-[#ABEF5F] border-none">Book Now</button>
@@ -387,9 +411,11 @@
               />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Houston, TX </h2>
+              <h2 class="card-title">Houston, TX</h2>
               <p>
-                Even though rent prices in Houston are up slightly by 0.09 percent over last year, it hasn’t deterred renters from moving to this action-packed city.
+                Even though rent prices in Houston are up slightly by 0.09
+                percent over last year, it hasn’t deterred renters from moving
+                to this action-packed city.
               </p>
               <div class="card-actions justify-end">
                 <button class="btn bg-[#ABEF5F] border-none">Book Now</button>
